@@ -1,60 +1,35 @@
 {
   "users": [
     {
-      "name": "huynh kim cham",
-      "id": "pwfDARRZh"
-    },
-    {
       "name": "phan  hoàng hiếu",
-      "id": "_o032EWb1"
-    },
-    {
-      "name": "huỳnh kim châm",
-      "id": "zw2lFnm3t"
-    },
-    {
-      "name": "Phan Hoàng Hiếu",
-      "id": "P3calVXWX"
-    },
-    {
-      "name": "",
-      "id": "WTPAwaVg7"
+      "id": "_o032EWb1",
+      "phone": "0394305182",
+      "email": "phanhoanghieu19@gmail.com",
+      "password": "e10adc3949ba59abbe56e057f20f883e"
     },
     {
       "name": "Phan Hoàng Hiếu",
-      "id": "PFYEFOknj"
-    },
-    {
-      "name": "Phan Hoàng Hiếu",
-      "id": "9_WBl-rJm"
-    },
-    {
-      "name": "tu oanh",
-      "id": "aJatUrOSd"
+      "phone": "0394305182",
+      "id": "TojokEQkn",
+      "avatar": "uploads\\2751fd4bd003d217e178506bc226f6d4"
     },
     {
       "name": "cayanqua",
-      "id": "-oLpP4x3N"
+      "phone": "0905742596",
+      "id": "1VX4cAUPG",
+      "avatar": "uploads/aa72c3c281fe1d5d300ae3c2d74065ad"
     },
     {
-      "name": "Phan Hoàng Hiếu",
+      "name": "cayanqua",
+      "phone": "03943051821",
+      "id": "clttMwrP8",
+      "avatar": "uploads/5f07fb72890610291d71648b67b5953f"
+    },
+    {
+      "name": "cay_an_qua",
       "phone": "0935673292",
-      "id": "vDbl7S7EA"
-    },
-    {
-      "name": "Phan Hoàng Hiếu",
-      "phone": "03943051821",
-      "id": "6Go6-diEc"
-    },
-    {
-      "name": "cayanqua",
-      "phone": "03943051821",
-      "id": "Rlg48erOL"
-    },
-    {
-      "name": "Phan Hoàng Hiếu",
-      "phone": "03943051821",
-      "id": "iWiuNYG-s"
+      "id": "_SrOpksV3",
+      "avatar": "uploads/1c36b4e5f2405db343f9322380a437f2"
     }
   ]
 }

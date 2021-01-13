@@ -2,8 +2,13 @@ var db = require('../db');
 const shortid = require('shortid');
 
 module.exports.index = function(req, res){
+	var page = parseInt(req.query.page) || 1;// nếu ko set mặc định page  = 1
+	var maxPageItem  = 3;
+
+	var start = (page - 1)*maxPageItem;
+	var end = page*maxPageItem;
   res.render('users/index',{
-  	users: db.get('users').value()
+  	users: db.get('users').value().slice(start, end)
   });
 }
 
@@ -34,6 +39,7 @@ module.exports.get = function(req,res){
 
 module.exports.postCreate = function(req,res){
 	req.body.id = shortid.generate();
+	req.body.avatar = req.file.path.split('\\').slice(1).join('/');
 	
 	db.get('users').push(req.body).write();
 	// chuyển hướng đến trang /users
